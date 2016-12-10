@@ -7,6 +7,5 @@ module.exports = {
   dev: {
     port: 4000,
     baseUrl: 'http://localhost'
-  },
-  version: 'v1.0'
+  }
 }

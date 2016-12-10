@@ -1,7 +1,7 @@
 {
-  "name": "express-api-v1",
+  "name": "express-socket-chat",
   "version": "1.0.0",
-  "description": "My first express api",
+  "description": "Express JS basic implementation of socket.io for a simple chat app",
   "main": "app.js",
   "dependencies": {
     "app-root-dir": "^1.0.2",

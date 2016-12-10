@@ -27,7 +27,7 @@ app.use(function(req, res, next) {
   next()
 })
 
-server.listen(process.env.PORT || 4000)
+server.listen(process.env.PORT || process.env.NODE_ENV === 'production' ? config.prod.port : config.dev.port)
 
 /**
  * Helper function to generate
